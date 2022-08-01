@@ -56,21 +56,18 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding: 7em 9em;
 }
 
 .hero_frame {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: none;
-    padding-left: 340px;
     gap: 16px;
 }
 
 .hero_image {
-    padding-right: 340px;
+    max-width: 100%; 
 }
 
 .signup, #esports_button {
@@ -92,7 +89,7 @@ a {
 
 #esports_button {
     border: 2px solid white;
-    margin-left: 200px;
+    width: 180px;
 }
 
 .hero_title {
@@ -126,12 +123,13 @@ a {
 .legend_image {
     border-radius: 16px;
     border: 4px solid blue;
-    height: 200px;
-    width: 200px;
+    height: 190px;
+    width: 190px;
 }
 
 .legends_information {
     text-align: center;
+    height: 300px;
 }
 
 .container_maps {
@@ -188,7 +186,7 @@ a {
 .esports_container {
     margin: 128px 256px;
     background-color: #3882F6;
-    padding: 48px 128px;
+    padding: 48px 96px;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -200,6 +198,7 @@ a {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 64px;
 }
 
 #esports_container_text_title {
