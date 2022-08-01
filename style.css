@@ -1,0 +1,220 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 72px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    height: 72px;
+    width: 72px;
+    padding: 4px;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.middle_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: whitesmoke;
+}
+
+.hero_content {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.hero_frame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: none;
+    padding-left: 340px;
+    gap: 16px;
+}
+
+.hero_image {
+    padding-right: 340px;
+}
+
+.signup, #esports_button {
+    font-family: Roboto, sans-serif;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 150px;
+    height: 36px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#esports_button {
+    border: 2px solid white;
+    margin-left: 200px;
+}
+
+.hero_title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.legends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 340px 72px 340px;
+}
+
+.legends_gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 72px;
+    gap: 48px;
+}
+
+.legend_image {
+    border-radius: 16px;
+    border: 4px solid blue;
+    height: 200px;
+    width: 200px;
+}
+
+.legends_information {
+    text-align: center;
+}
+
+.container_maps {
+    position: relative;
+    display: inline-block;
+    height: 675px;
+    min-width: 100%;
+}
+
+.image_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;    
+    height: 100%;  
+    width: 100%;
+}
+
+.maps {
+    display: block;
+    min-width: 100%;
+    height: 675px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+
+#image_text_padding {
+    text-align: center;
+    padding-left: 340px;
+    padding-right: 340px;
+    font-size: 36px;
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    z-index: 2;
+    width: 50%;
+    text-align: center;
+}
+
+.esports {
+    background-color: whitesmoke;
+
+}
+
+.esports_container {
+    margin: 128px 256px;
+    background-color: #3882F6;
+    padding: 48px 128px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.esports_container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#esports_container_text_title {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#esports_container_text_subtext {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+
+#legends_title {
+    font-weight: bold;
+    font-size: 36px;
+}

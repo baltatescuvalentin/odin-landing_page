@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="header">
-            <div>Hero Header</div>
+            <div>
+                <img class="logo" src="./images/logo.png" alt="Apex Legends Logo" >
+            </div>
             <ul>
                 <li><a href=""> Legends </a></li>
                 <li><a href=""> Maps </a></li>
@@ -16,20 +19,69 @@
             </ul>
         </div>
         <div class="middle_content">
-            <div class="welcome_content">
-                test
+            <div class="hero_content">
+                <div class="hero_frame">
+                    <div class="hero_title"> This website is AWESOME!</div>
+                    <div class="hero_text"> 
+                        This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.
+                    </div>
+                    <button class="signup">Sign up</button>
+                </div>
+                <div class="hero_image"> 
+                    <img src="./images/legends.png" alt="Legends Roster" height="250" width="600">
+                </div>
             </div>
 
             <div class="legends">
-                legends
+                <div id="legends_title">Some random information.</div>
+                <div class="legends_gallery">
+                    <div class="legends_information">
+                        <img class="legend_image" src="./images/bloodhound.jpg" alt="Bloodhound">
+                        <p>text</p>
+                    </div>
+                    <div class="legends_information">
+                        <img class="legend_image" src="./images/horizon.jpg" alt="Horizon">
+                        <p>text</p>
+                    </div>
+                    <div class="legends_information">
+                        <img class="legend_image" src="./images/lifeline.jpg" alt="Lifeline">
+                        <p>text</p>
+                    </div>
+                    <div class="legends_information">
+                        <img class="legend_image" src="./images/octane.jpeg" alt="Octane">
+                        <p>text</p>
+                    </div>
+                    <div class="legends_information">
+                        <img class="legend_image" src="./images/pathfinder.jpg" alt="Pathfinder">
+                        <p>text</p>
+                    </div>
+                    <div class="legends_information">
+                        <img class="legend_image" src="./images/valkyrie.jpg" alt="Valkyrie">
+                        <p>text</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="maps">
-                test
+            <div class="container_maps">
+                <div class="image_text">
+                    <p id="image_text_padding">
+                    In Apex Legends there is the concept of rotating maps which means that every one or two hours the maps will rotate in a random order.
+                    <br>
+                    The maps are: King's Canyon, World's Edge, Storm Point and Olympus
+                    </p>
+                </div>
+                <img class="maps" src="./images/maps.jpg" alt="Apex Maps">
             </div>
 
             <div class="esports">
-                test
+                <div class="esports_container">
+                    <div class="esports_container_text">
+                        <div id="esports_container_text_title"> Join the elites!</div>
+                        <div id="esports_container_text_subtext"> Do you want to play against the best and prove you are the <strong>BEST</strong> ? Then join our competitive community!</div>
+                    </div>
+
+                    <button id="esports_button"> Sign up </button>
+                </div>
             </div>
         </div> 
         <div class="footer">Copyright © The Odin Project 2021</div>
