@@ -6,7 +6,7 @@ body {
     flex: 1;
 }
 
-.footer {
+footer {
     background-color: #1F2937;
     height: 72px;
     color: grey;
